@@ -170,7 +170,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2020-09-27 11:17:41 / 修改时间：11:23:54" itemprop="dateCreated datePublished" datetime="2020-09-27T11:17:41+08:00">2020-09-27</time>
+              <time title="创建时间：2020-09-27 11:17:41 / 修改时间：13:48:15" itemprop="dateCreated datePublished" datetime="2020-09-27T11:17:41+08:00">2020-09-27</time>
             </span>
 
           
@@ -195,20 +195,24 @@
 <ul>
 <li>安装好以后, 命令行敲node -v 检验是否安装成功</li>
 </ul>
-<img src="/Users/wyt/Library/Application Support/typora-user-images/image-20200914110755873.png" alt="image-20200914110755873"  />
+<img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gj52fvw9drj30wi0kan1p.jpg" alt="检查node版本" style="zoom:50%;" />
+
+
 
 <h3 id="下载hexo"><a href="#下载hexo" class="headerlink" title="下载hexo"></a>下载hexo</h3><ul>
-<li><p>使用npm install -g hexo-cli下载时, 可能会报错, 如果报错可使用<font color = 'red'>sudo npm install – unsafe-perm –verbose -g hexo</font></p>
-</li>
-<li><p>安装完成后, hero -v查看版本,检查是否安装成功</p>
-</li>
+<li>使用npm install -g hexo-cli下载时, 可能会报错, 如果报错可使用<font color = 'red'>sudo npm install – unsafe-perm –verbose -g hexo</font></li>
+<li>安装完成后, hexo -v查看版本,检查是否安装成功</li>
 </ul>
-<img src="/Users/wyt/Library/Application Support/typora-user-images/image-20200914174835373.png" alt="image-20200914174835373"  />
+<img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gj55hz2bfaj30wi0iqjy2.jpg" alt="检查hexo版本" style="zoom:50%;" />
+
+
+
+
 
 <ul>
 <li>找到一个你钟意的文件夹~  命令行输入 <font color = 'red'>hero init</font> 来初始化项目!</li>
 </ul>
-<img src="/Users/wyt/Library/Application Support/typora-user-images/image-20200914175137747.png" alt="image-20200914175137747"  />
+<img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gj55ezfruuj316s0o813y.jpg" alt="初始化项目" style="zoom:50%;" />
 
 
 
@@ -226,7 +230,7 @@
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
 
 <p>本地访问地址: <a target="_blank" rel="noopener" href="http://localhost:4000/">http://localhost:4000/</a></p>
-<img src="/Users/wyt/Library/Application Support/typora-user-images/image-20200914175718085.png" alt="image-20200914175718085" style="zoom: 100%;" />
+<img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gj55g8wdyyj31hc0tdwvf.jpg" alt="本地预览博客" style="zoom:50%;" />
 
 
 
@@ -241,20 +245,24 @@
 <li>创建ssh: 在命令行中输入<font color = 'red'><code>ssh-keygen -t rsa -C &quot;youremail@example.com</code></font>,替换邮箱为你的github邮箱,一路回车</li>
 <li>在C://User//yourname//.ssh中会发现几个文件,其中yourname为你的电脑用户名</li>
 </ul>
-<img src="/Users/wyt/Library/Application Support/typora-user-images/image-20200914200231866.png" alt="image-20200914200231866"  />
+<img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gj55jyrp41j316s0o8tim.jpg" alt="本地ssh目录" style="zoom:50%;" />
 
 <ul>
 <li>打开<font color = 'red'>id_rsa.pub</font>, 复制全部内容</li>
 <li>打开github, 将复制的内容贴到key中,新增自己的ssh</li>
 </ul>
-<img src="/Users/wyt/Library/Application Support/typora-user-images/image-20200915104118015.png" alt="image-20200915104118015" style="zoom:;" />
+<img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gj55os4jypj306l0d43yx.jpg" alt="githubsetting" style="zoom:50%;" />
 
-<img src="/Users/wyt/Library/Application Support/typora-user-images/image-20200915104244958.png" alt="image-20200915104244958" style="zoom:200%;" />
+
+
+<img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gj55p8sfesj30w10i8wgr.jpg" alt="创建github ssh" style="zoom:50%;" />
 
 <ul>
-<li>命令行输入<font color = 'red'>ssh -T <a href="mailto:&#103;&#105;&#x74;&#64;&#x67;&#105;&#x74;&#104;&#117;&#98;&#46;&#99;&#x6f;&#x6d;">&#103;&#105;&#x74;&#64;&#x67;&#105;&#x74;&#104;&#117;&#98;&#46;&#99;&#x6f;&#x6d;</a></font>, 输入yes, 验证是否成功</li>
+<li>命令行输入<font color = 'red'>ssh -T <a href="mailto:&#103;&#105;&#116;&#x40;&#x67;&#105;&#x74;&#104;&#117;&#x62;&#46;&#x63;&#x6f;&#109;">&#103;&#105;&#116;&#x40;&#x67;&#105;&#x74;&#104;&#117;&#x62;&#46;&#x63;&#x6f;&#109;</a></font>, 输入yes, 验证是否成功</li>
 </ul>
-<img src="/Users/wyt/Library/Application Support/typora-user-images/image-20200915104609560.png" alt="image-20200915104609560" style="zoom:70%;" />
+<img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gj55qz0ttxj30wa03omzd.jpg" alt="绑定ssh key" style="zoom:50%;" />
+
+
 
 <ul>
 <li>打开你的blog项目, 修改_config.yml文件配置</li>
@@ -265,7 +273,7 @@
 
 <h3 id="安装一波git部署的工具npm-install-hero-deployer-git-–save"><a href="#安装一波git部署的工具npm-install-hero-deployer-git-–save" class="headerlink" title="安装一波git部署的工具npm install hero-deployer-git –save"></a>安装一波git部署的工具<font color = 'red'>npm install hero-deployer-git –save</font></h3><h3 id="输入命令"><a href="#输入命令" class="headerlink" title="输入命令"></a>输入命令</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean 	//清理缓存</span><br><span class="line">hexo g			//编译代码</span><br><span class="line">hexo d			//执行部署</span><br></pre></td></tr></table></figure>
 
-<h4 id="浏览器输入http-yourgithubname-github-io-就可以看到你的博客了"><a href="#浏览器输入http-yourgithubname-github-io-就可以看到你的博客了" class="headerlink" title="浏览器输入http://yourgithubname.github.io 就可以看到你的博客了"></a>浏览器输入<a target="_blank" rel="noopener" href="http://yourgithubname.github.io/">http://yourgithubname.github.io</a> 就可以看到你的博客了</h4><img src="/Users/wyt/Library/Application Support/typora-user-images/image-20200915105816459.png" alt="image-20200915105816459" style="zoom:80%;" />
+<h4 id="浏览器输入http-yourgithubname-github-io-就可以看到你的博客了"><a href="#浏览器输入http-yourgithubname-github-io-就可以看到你的博客了" class="headerlink" title="浏览器输入http://yourgithubname.github.io 就可以看到你的博客了"></a>浏览器输入<a target="_blank" rel="noopener" href="http://yourgithubname.github.io/">http://yourgithubname.github.io</a> 就可以看到你的博客了</h4><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gj55t5i2s0j31hc0td7l9.jpg" alt="查看自己的博客" style="zoom:50%;" />
 
 
 
